@@ -1,2 +1,3 @@
-Douglass no ayudo en la creacion de esta pagina
-Erwin = Makunga
+git pull --rebase
+git push -u origin master
+git remote -v
