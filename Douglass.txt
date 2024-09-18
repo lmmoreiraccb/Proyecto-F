@@ -3,5 +3,3 @@ git add .  Para guardar todo
 git commit -m "Initial commit" para nombrar el commit
 git push -u origin master Para mandarlo al git
 git pull origin master --rebase Para jalarlo del git
-
-
