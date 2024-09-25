@@ -1,10 +1,13 @@
-import Image from "next/image";
-
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
-  <div >
-    CONTACTO
-  </div>
+    <main className={styles.imagenes}>
+       <img
+          src="bosquesito.jpg"
+          alt="Imagen"
+          className={styles.imagenes}
+        />
+    </main>
   );
 }
