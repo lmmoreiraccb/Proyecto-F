@@ -6,18 +6,12 @@ export default function Home() {
     <main>
       <header className={styles.header}>
         <div>
-
           <span>
-            Bienvenidos a
-            <span className={styles.yellowText}></span>
-          </span>
-          <br />
-          <span>Tienda Douglass</span>
-
+            Bienvenidos a Tienda Douglass           
+          </span>         
         </div>
       </header>
       <section className={styles.infoSection}>
-
       </section>
 
     </main>

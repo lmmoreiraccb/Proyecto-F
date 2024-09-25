@@ -4,15 +4,20 @@
   justify-content: center;
   height: 100vh;
   font-weight: 600;
-  color:rgb(255, 255, 255);
+  color:rgb(0, 255, 255);
   font-size: 65px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header div{
   display: flex;
-  flex-direction: column;
+  width: 100%;
   justify-content: center;
-  color:rgb(150, 189, 43);
+  color:rgb(0, 255, 255);
+  background-image: url("/quesotienda.jpeg"); /* Set the background image */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
 }
 
 
