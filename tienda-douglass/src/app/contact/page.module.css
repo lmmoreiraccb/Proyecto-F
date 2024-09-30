@@ -1,7 +1,70 @@
 .header {
   display: flex;
-  background-image: url("/bosquesito.jpg");
-  background-repeat: no-repeat;
+  flex-direction: row;
   justify-content: center;
+  height: 100vh;
+  font-weight: 600;
+  color:rgb(0, 255, 255);
+  font-size: 65px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  justify-content:center;
+  color:rgb(17, 0, 255);
+  background-image: url("/bosquesito.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: 100%;
+}
+
+.infoSection {
+  display: flex;
+  /* Diseño flexible */
+  flex-direction: row;
+  /* Orientación horizontal */
+  justify-content: center;
+  /* Centrar contenido horizontalmente */
+  height: 100vh;
+  /* Altura 100% de la ventana gráfica */
+  align-items: center;
+  /* Centrar elementos verticalmente */
+}
+
+/* Contenedor de información */
+.infoContainer {
+  color: white;
+  /* Color del texto en blanco */
+  margin-left: 40px;
+  /* Margen izquierdo */
+}
+
+/* Estilo del título */
+.infoContainer .title {
+  font-size: 60px;
+  /* Tamaño de fuente */
+  font-weight: bold;
+  /* Texto en negrita */
+}
+
+/* Espaciado en la parte superior de la lista */
+.infoContainer .list {
+  margin-top: 30px;
+  /* Margen superior de 30px */
+}
+
+/* Indentación de la lista con viñetas */
+.infoContainer .list ul {
+  padding-left: 20px;
+  /* Sangría izquierda de 20px */
+}
+
+/* Estilo de los elementos de la lista */
+.infoContainer .list ul li {
+  margin-bottom: 20px;
+  /* Aumenta el espacio entre los elementos de la lista */
+  list-style: disc;
+  /* Agrega viñetas a los elementos de la lista */
 }
