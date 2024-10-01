@@ -23,9 +23,9 @@ function navbar() {
         className={styles.navbarItem + ` ${selectedItem === 'Inicio' ? styles.selected : ''}`}
         onClick={() => handleItemClick('Inicio', 'header')}
         >
-            <a href="#header">Inicio</a>    
+            <a href="/">Inicio</a>    
         </div>
-        <div className={styles.navbarItem + ` ${selectedItem === 'Contact' ? styles.selected : ''}`}
+        <div className={styles.navbarItem + ` ${selectedItem === 'contacto' ? styles.selected : ''}`}
         onClick={() => handleItemClick('contact', 'info')}
         >
             <a href="contact">contact</a>    
