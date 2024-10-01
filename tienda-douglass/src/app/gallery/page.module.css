@@ -1,0 +1,19 @@
+.imagenes {
+    display: flex;
+    /* Diseño flexible */
+    flex-direction: row;
+    /* Orientación horizontal */
+    justify-content: center;
+    /* Centrar contenido horizontalmente */
+    height: 100vh;
+    /* Altura 100% de la ventana gráfica */
+    align-items: center;
+    /* Centrar elementos verticalmente */
+  
+    .image {
+      max-width: 33%;
+      height: 40vh;
+      border-radius: 20%;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
