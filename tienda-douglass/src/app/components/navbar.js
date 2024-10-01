@@ -25,11 +25,16 @@ function navbar() {
         >
             <a href="/">Inicio</a>    
         </div>
-        <div className={styles.navbarItem + ` ${selectedItem === 'contacto' ? styles.selected : ''}`}
+        <div className={styles.navbarItem + ` ${selectedItem === 'contact' ? styles.selected : ''}`}
         onClick={() => handleItemClick('contact', 'info')}
         >
             <a href="contact">contact</a>    
-        </div>         
+        </div> 
+        <div className={styles.navbarItem + ` ${selectedItem === 'gallery' ? styles.selected : ''}`}
+        onClick={() => handleItemClick('gallery' , 'info')}
+        >
+            <a href="gallery">gallery</a>
+            </div>        
     </nav> 
     );
 }
