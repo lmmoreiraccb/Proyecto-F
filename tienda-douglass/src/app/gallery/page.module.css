@@ -31,12 +31,8 @@
 }
 
 .text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 100vh;
-      font-weight: 600;
-      color:rgb(73, 194, 194);
+      flex-direction: row;
+      color:rgb(6, 166, 240);
       font-size: 65px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <Navbar></Navbar>
-      <header className={styles.header}>
+      <header className={styles.header }>
         <div>
           <span>
             Contacto

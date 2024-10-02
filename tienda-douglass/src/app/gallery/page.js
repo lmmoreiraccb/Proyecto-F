@@ -7,8 +7,10 @@ export default function Home() {
       <Navbar></Navbar>
       <header className={styles.header}>
         <div flexDirection="column">
+        <span className={styles.text}>
+              Galería
+            </span>
           <section className={styles.imagenes}>
-
             <img
               src="amarillo.jpg"
               alt="Imagen"
@@ -26,7 +28,7 @@ export default function Home() {
               alt="Imagen"
               className={styles.image}
             />
-          </section>  
+          </section>
           <section id="Imagenes" className={styles.imagenes}>
 
             <img
