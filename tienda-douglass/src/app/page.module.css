@@ -7,7 +7,7 @@
   height: 100vh;
   font-weight: 600;
   color: rgb(0, 0, 0);
-  text-shadow: black;
+  text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd, 17px -19px 10px rgba(206,89,55,0.34);
   text-decoration: double;
   font-size: 100px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,7 +16,7 @@
 .header div {
   display: flex;
   width: 100%;
-  text-shadow: rgb(40, 15, 82);
+  text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd, 17px -19px 10px rgba(206,89,55,0.34);
   text-decoration: double;
   justify-content: center;
   color: rgb(47, 21, 95);
