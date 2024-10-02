@@ -7,7 +7,6 @@ function navbar() {
 
     const handleItemClick = (item, id) => {
         setSelectedItem(item);
-        setSelectedItem(id);
     };
 
     const scrollToSection = (id) => {
@@ -17,25 +16,25 @@ function navbar() {
         }
     };
 
-    return (       
-    <nav className={styles.navbar}>
-        <div 
-        className={styles.navbarItem + ` ${selectedItem === 'Inicio' ? styles.selected : ''}`}
-        onClick={() => handleItemClick('Inicio', 'header')}
-        >
-            <a href="/">Inicio</a>    
-        </div>
-        <div className={styles.navbarItem + ` ${selectedItem === 'contact' ? styles.selected : ''}`}
-        onClick={() => handleItemClick('contact', 'info')}
-        >
-            <a href="contact">contact</a>    
-        </div> 
-        <div className={styles.navbarItem + ` ${selectedItem === 'gallery' ? styles.selected : ''}`}
-        onClick={() => handleItemClick('gallery' , 'info')}
-        >
-            <a href="gallery">gallery</a>
-            </div>        
-    </nav> 
+    return (
+        <nav className={styles.navbar}>
+            <div
+                className={styles.navbarItem + ` ${selectedItem === 'Inicio' ? styles.selected : ''}`}
+                onClick={() => handleItemClick('Inicio', 'header')}
+            >
+                <a href="/">Inicio</a>
+            </div>
+            <div className={styles.navbarItem + ` ${selectedItem === 'contact' ? styles.selected : ''}`}
+                onClick={() => handleItemClick('contact', 'info')}
+            >
+                <a href="contact">contact</a>
+            </div>
+            <div className={styles.navbarItem + ` ${selectedItem === 'gallery' ? styles.selected : ''}`}
+                onClick={() => handleItemClick('gallery', 'info')}
+            >
+                <a href="gallery">gallery</a>
+            </div>
+        </nav>
     );
 }
 
